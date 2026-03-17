@@ -1,11 +1,5 @@
-numero: int = int(input("Digite um número: "))
+numero: int = int(input("Digite o número: "))
 
-def conta(num):
-    inicial = 0
-    for inicial in range(num):
-        inicial += 1
-        print(inicial)
-    
-    return inicial
-
-conta(numero)
+for i in range(numero + 1):
+    print(i)
+    i += 1

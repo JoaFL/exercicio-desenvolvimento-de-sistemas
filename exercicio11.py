@@ -1,15 +1,11 @@
-NUMEROS = []
+total = []
 
-i = 1
 for i in range(5):
-    numero: int = int(input(f"Digite o número {i+1}: "))
-    NUMEROS.append(numero)
-
-def soma(table):
-    result = 0
-    for i in table:
-        result += i
+    numero: float = float(input(f"Digite o {i + 1}º número: "))
+    total.append(numero)
     
-    return result
-
-print(soma(NUMEROS))
+soma = 0   
+for num in total:
+    soma += num
+    
+print(soma)
