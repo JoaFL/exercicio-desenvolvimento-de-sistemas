@@ -1,3 +1,4 @@
+#7- Escreva um programa que receba um número e informe se ele é par ou ímpar.
 numero: int = int(input("Digite um número: "))
 
 if (numero % 2):
