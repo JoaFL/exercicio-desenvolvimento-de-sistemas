@@ -1,3 +1,4 @@
+#9- Escreva um programa que mostre na tela os números de 1 até 10 usando uma estrutura de repetição.
 inicial = 1
 final = 10
 
