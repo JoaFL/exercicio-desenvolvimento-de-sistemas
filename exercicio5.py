@@ -1,3 +1,7 @@
+#5- Escreva um programa que receba dois números e mostre na tela:
+#•	a soma
+#•	a subtração
+#•	a multiplicação
 def soma(a, b):
     result = a + b
     return result
